@@ -1,24 +1,5 @@
 # -*- coding:utf-8 -*-
 
-"""
-      ┏┛ ┻━━━━━┛ ┻┓
-      ┃　　　　　　 ┃
-      ┃　　　━　　　┃
-      ┃　┳┛　  ┗┳　┃
-      ┃　　　　　　 ┃
-      ┃　　　┻　　　┃
-      ┃　　　　　　 ┃
-      ┗━┓　　　┏━━━┛
-        ┃　　　┃   神兽保佑
-        ┃　　　┃   代码无BUG！
-        ┃　　　┗━━━━━━━━━┓
-        ┃CREATE BY SNIPER┣┓
-        ┃　　　　         ┏┛
-        ┗━┓ ┓ ┏━━━┳ ┓ ┏━┛
-          ┃ ┫ ┫   ┃ ┫ ┫
-          ┗━┻━┛   ┗━┻━┛
-
-"""
 import tensorflow as tf
 from utils import get_token
 from bert_fc import Bert
