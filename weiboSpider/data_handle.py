@@ -102,6 +102,11 @@ for i in range(4):
     positive_number[i] = positive_number[i] / len(split_list[i])
     negative_number[i] = negative_number[i] / len(split_list[i])
     mid_number[i] = mid_number[i] / len(split_list[i])
+    tmp_str = ''
+    for each in split_list[i]:
+        tmp_str +=each[0]
+    with open('./data/txt_' + str(i) + '.txt', 'w', encoding='utf-8') as f:
+        f.write(tmp_str)
 
 with open('split_data.pkl', 'wb') as f:
     pickle.dump(split_list, f)
